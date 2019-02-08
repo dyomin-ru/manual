@@ -25,3 +25,5 @@ parameters:
     auto_reload: true
     cache: false
 ```
+
+[Ещё несколько способов](https://github.com/Niklan/Trash/blob/master/Drupal/8.x/disable_cache.md)
