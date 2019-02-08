@@ -17,7 +17,7 @@ $settings['cache']['bins']['render'] = 'cache.backend.null';
 $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 $settings['extension_discovery_scan_tests'] = FALSE;
 ```
-4. В файле development.services.yml добавим параметры для дебага twig'a:
+4. В файле *development.services.yml* добавим параметры для дебага twig'a:
 ```
 parameters:
   twig.config:
