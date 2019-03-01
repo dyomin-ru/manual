@@ -1,33 +1,71 @@
 # Добавить в новый composer.json
 ## В секцию `repositories`
 ```
-{
-  "type": "composer",
-  "url": "https://asset-packagist.org"
+{  
+  "type":"composer",
+  "url":"https://asset-packagist.org"
 },
-
-{
-  "type": "package",
-  "package": {
-    "name": "jackmoore/colorbox",
-    "version": "1.6.4",
-    "type": "drupal-library",
-    "dist": {
-      "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
-      "type": "zip"
+{  
+  "type":"package",
+  "package":{  
+    "name":"kenwheeler/slick",
+    "version":"1.9.0",
+    "type":"drupal-library",
+    "source":{  
+      "url":"https://github.com/kenwheeler/slick",
+      "type":"git",
+      "reference":"master"
     }
   }
 },
-{
-  "type": "package",
-  "package": {
-    "name": "woocommerce/flexslider",
-    "version": "2.7.0",
-    "type": "drupal-library",
-    "source": {
-      "url": "https://github.com/woocommerce/FlexSlider",
-      "type": "git",
-      "reference": "master"
+{  
+  "type":"package",
+  "package":{  
+    "name":"dinbror/blazy",
+    "version":"1.8.2",
+    "type":"drupal-library",
+    "source":{  
+      "url":"https://github.com/dinbror/blazy",
+      "type":"git",
+      "reference":"1.8.2"
+    }
+  }
+},
+{  
+  "type":"package",
+  "package":{  
+    "name":"mreq/slick-lightbox",
+    "version":"0.2.12",
+    "type":"drupal-library",
+    "source":{  
+      "url":"https://github.com/mreq/slick-lightbox",
+      "type":"git",
+      "reference":"master"
+    }
+  }
+},
+{  
+  "type":"package",
+  "package":{  
+    "name":"jackmoore/colorbox",
+    "version":"1.6.4",
+    "type":"drupal-library",
+    "dist":{  
+      "url":"https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+      "type":"zip"
+    }
+  }
+},
+{  
+  "type":"package",
+  "package":{  
+    "name":"woocommerce/flexslider",
+    "version":"2.7.0",
+    "type":"drupal-library",
+    "source":{  
+      "url":"https://github.com/woocommerce/FlexSlider",
+      "type":"git",
+      "reference":"master"
     }
   }
 }
@@ -72,4 +110,12 @@
 "jackmoore/colorbox": "^1.6",
 "npm-asset/swiper": "^3.0",
 "woocommerce/flexslider": "^2.7"
+"drupal/slick": "^1.1",
+"drupal/slick_extras": "^1.0@RC",
+"drupal/slick_lightbox": "^1.0@beta",
+"drupal/slick_views": "^1.0",
+"kenwheeler/slick": "^1.9",
+"mreq/slick-lightbox": "^0.2.12",
+"dinbror/blazy": "^1.8",
+
 ```
