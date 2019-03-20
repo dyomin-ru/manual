@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# !!! УСТАРЕВШИЙ. Скрипт добавлен в web/themes/contrib/bootstrap_sass/scripts/create_subtheme.sh
 # Этот скрипт подготавливает кастомную тему оформления из bootstrap_sass
 # Подразумевается, что тема уже установлена в `theme/contrib` (через `composer`)
 # Запускать из папки themes
