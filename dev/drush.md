@@ -1,4 +1,4 @@
-#Настройка псевдонимов для drush `drush/sites/self.site.yml'
+# Настройка псевдонимов для drush `drush/sites/self.site.yml'
 
 Обычно в работе используем три состояния сайта:
 
